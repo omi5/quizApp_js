@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+
+}
+.quiz_app{
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0 /10%) 0px 10px 50px;
+    border-radius: 48px;
+}
+.image img{
+    width: 100%;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    font-size: 900;
+}
+
+.content h3 , p{
+    margin-top: 20px;
+}
+.btn{
+    margin-left: 172px;
+    margin-top: 3px;
+    width: 60%;
+}
+.btn button{
+    height: 70px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 57px 0px   51px 0px ;
+    transition: 0.2s ease-in-out;
+}
+.btn button{
+background-color: rgb(29, 194, 194);
+}
